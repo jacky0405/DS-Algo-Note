@@ -1,5 +1,5 @@
 ## 稀疏數組(Sparse Array)和隊列(Queue)  
-####一、稀疏數組(Sparse Array)  
+#### 一、稀疏數組(Sparse Array)  
 1. 實際需求
 ![image1](image/sparsearray1.png)  
 我們想要保存圖中2D-array的狀態，但array中太多不必要資訊(ex:0)，如果也把那些保存下來就太浪費資源了。  
