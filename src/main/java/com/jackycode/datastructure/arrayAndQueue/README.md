@@ -44,6 +44,20 @@
     0 0 0 0 0 0 0 0 0 0 0 
     0 0 0 0 0 0 0 0 0 0 0
     ```  
+#### 二、隊列(Queue)  
+1. 基本介紹  
+隊列：是一個 **有序列表**，可用數組(Array)或鏈表(Linked List)實現。  
+特點：遵循 **先入先出** 原則。  
+![image3](image/queue1.png)  
+    * front:隊列頭部
+    * rear:隊列尾部  
+2. 實現  
+    * 數組模擬：[ArrayQueue](ArrayQueue.java) (需改善)  
+3. 問題分析  
+上面實現的queue為一次性的，隊列加滿後就無法再添加數據，也無法清空隊列。  
+優化方向：使用環形隊列。  
+4. 環形隊列實現
+    * [CircleQueue](CircleQueue.java)
 
 
 
