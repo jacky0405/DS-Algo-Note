@@ -23,3 +23,15 @@
     * 可自刪節點  
 4. 實現  
     * [DoubleLinkedList](DoubleLinkedList.java)  
+#### 單向環形鏈表 - Josephu問題  
+1. 應用問題  
+![image3](image/linkedlist3.png)  
+* `n=5` 有5個人  
+* `k=1` 從第1個人開始數  
+* `m=2` 數2次後出隊  
+可得到隊列順序為：2 > 4 > 1 > 3 > 5  
+2. 創建環形鏈表的思路  
+    1. 當第一個節點加入時，使用`first`指向他，類似`head`作用，使用`curBoy`來輔助添加過程  
+    2. 當第二個節點被加入時，其中`next`要指向`first`，以此類推  
+3. 實現  
+    * [CircleSingleLinkedList](CircleSingleLinkedList.java)  

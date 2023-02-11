@@ -1,9 +1,6 @@
 package com.jackycode.datastructure;
 
-import com.jackycode.datastructure.linkedList.DoubleLinkedList;
-import com.jackycode.datastructure.linkedList.HeroNode;
-import com.jackycode.datastructure.linkedList.HeroNode2;
-import com.jackycode.datastructure.linkedList.SingleLinkedList;
+import com.jackycode.datastructure.linkedList.*;
 import org.junit.jupiter.api.Test;
 
 public class LinkedListTest {
@@ -89,6 +86,16 @@ public class LinkedListTest {
         list.update(hero2_modi);
         list.remove(3);
         list.show();
+    }
 
+    /**
+     * 環形單向鏈表測試
+     */
+    @Test
+    public void circleLinkedListTest() {
+        CircleSingleLinkedList list = new CircleSingleLinkedList();
+        list.add(5);
+        list.show();
+        list.countBoy(1,2,5);
     }
 }
