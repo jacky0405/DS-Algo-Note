@@ -1,5 +1,7 @@
-package com.jackycode.datastructure.arrayAndQueue;
+package com.jackycode.datastructure;
 
+import com.jackycode.datastructure.arrayAndQueue.ArrayQueue;
+import com.jackycode.datastructure.arrayAndQueue.CircleQueue;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
