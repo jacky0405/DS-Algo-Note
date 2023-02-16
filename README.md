@@ -5,4 +5,5 @@
 1. [稀疏數組(Sparse Array)和隊列(Queue)](src/main/java/com/jackycode/datastructure/arrayAndQueue)  
 2. [鏈表(Linked List)](src/main/java/com/jackycode/datastructure/linkedList)  
 3. [棧(Stack)](src/main/java/com/jackycode/datastructure/stack)  
+4. [遞歸(Recursion)](src/main/java/com/jackycode/datastructure/recursion)  
 
