@@ -5,6 +5,7 @@
 2. [鏈表(Linked List)](src/main/java/com/jackycode/datastructure/linkedList)  
 3. [棧(Stack)](src/main/java/com/jackycode/datastructure/stack)  
 4. [遞歸(Recursion)](src/main/java/com/jackycode/datastructure/recursion)  
+5. [哈希表(Hash Table)](src/main/java/com/jackycode/datastructure/hashTable)  
 #### 第二部分 - 演算法  
 1. [排序(Sorting)](src/main/java/com/jackycode/algorithm/sort)  
 2. [查找(Searching)](src/main/java/com/jackycode/algorithm/search)  
